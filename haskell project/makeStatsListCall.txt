@@ -1,0 +1,22 @@
+           Report of Haskell project 
+append1 : take training list and append it to give string [list of chars]
+remove1 : filter a list to clear all occurences of the first char in it
+
+countandremove : counts the frequency 
+makepairlist : make the list of pairs (f,c) but unsorted
+
+insert : insert pair in a correct positin in the  list according to frequencies (descending)
+sort : sort the lists of pairs using insert function
+
+trackstring2 : call it over append training and char to make a list of all chars occurs after 
+this char(including chars)
+
+main1 : call it over the list to make the list of pairs sorted
+mainfinal : make the final structure of statistics list
+makestats : call mainfinal  over append training
+
+sumfr : take the lists of pairs and sum the frequencies
+hamada: call sumfr on the output of main1
+check : take a random char from chars in pairlist bu subtracting untill less than the certain frequency
+compose : call check on main1
+composefinal :find the required string 
